@@ -80,6 +80,13 @@ export default function BaileyWilburnSite() {
       stack: ["pfSense", "VLANs", "Proxmox"],
       link: null,
     },
+    {
+      name: "IndexTeks",
+      tag: "Coming Soon",
+      desc: "Landing page is up — full launch in progress. Sign up at indexteks.com to get notified.",
+      stack: ["TBA"],
+      link: "https://indexteks.com",
+    },
   ];
 
   const skillGroups = [
@@ -170,17 +177,11 @@ export default function BaileyWilburnSite() {
 
       {/* Hero */}
       <section id="home" className="max-w-4xl mx-auto px-6 pt-24 pb-20">
-        <div className={`font-mono text-xs ${muted} mb-6 flex items-center gap-2`}>
-          <span className={`w-2 h-2 rounded-full ${accentBg}`}></span>
-          <span>Available for cloud security &amp; MSP roles</span>
-        </div>
-        <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 leading-tight">
+        <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-4 leading-tight">
           Bailey Wilburn
         </h1>
-        <p className={`text-lg md:text-xl ${muted} mb-8 max-w-2xl leading-relaxed`}>
-          IT &amp; cybersecurity professional building practical tools for everyday
-          users. Help desk by day, shipping projects at{" "}
-          <span className={accent}>TekSure</span> and elsewhere by night.
+        <p className={`text-base md:text-lg ${muted} mb-6`}>
+          A minimal personal portfolio.
         </p>
         <div className={`flex items-center gap-2 text-sm ${muted} mb-10 font-mono`}>
           <MapPin className="w-4 h-4" />
@@ -219,23 +220,18 @@ export default function BaileyWilburnSite() {
             className={`space-y-5 ${muted} text-base md:text-lg leading-relaxed max-w-3xl`}
           >
             <p>
-              I work IT help desk at a community bank in Louisiana, where I handle
-              troubleshooting, network and connectivity issues, and Okta/SSO
-              administration inside a security- and compliance-conscious
-              environment. I hold a{" "}
-              <span className={text}>CompTIA Security+ CE</span> and have a
-              cybersecurity degree.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat.
             </p>
             <p>
-              I'm actively pointing my career toward{" "}
-              <span className={text}>cloud security engineering</span> and MSP-style
-              roles, with a long-term interest in AI security. On the side I run a
-              handful of projects: the biggest is{" "}
-              <span className={accent}>TekSure</span>, a platform for tech tips and
-              how-tos aimed at non-techies, and a series of niche X/Twitter
-              automation accounts I call the AI300 portfolio.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+              non proident, sunt in culpa qui officia deserunt mollit anim id est
+              laborum.
             </p>
-            <p>When I'm not at a keyboard I'm usually planning the next trip.</p>
+            <p>Placeholder copy — to be written.</p>
           </div>
         </div>
       </section>
@@ -346,14 +342,9 @@ export default function BaileyWilburnSite() {
       <section id="contact" className={`border-t ${border}`}>
         <div className="max-w-4xl mx-auto px-6 py-20">
           <div className={`font-mono text-xs ${accent} mb-3`}>04 / CONTACT</div>
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-10">
             Let's talk.
           </h2>
-          <p className={`${muted} text-lg mb-10 max-w-2xl leading-relaxed`}>
-            Open to cloud security and MSP opportunities, collaborations on TekSure,
-            or anything interesting at the intersection of security and building
-            things.
-          </p>
           <div className="grid sm:grid-cols-2 gap-3">
             {[
               {
