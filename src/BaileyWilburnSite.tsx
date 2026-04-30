@@ -7,7 +7,6 @@ import {
   Mail,
   Twitter,
   ExternalLink,
-  Download,
   MapPin,
   ArrowUpRight,
   Terminal,
@@ -194,12 +193,6 @@ export default function BaileyWilburnSite() {
           >
             View projects <ArrowUpRight className="w-4 h-4" />
           </button>
-          <a
-            href="/resume.pdf"
-            className={`border ${border} px-5 py-2.5 rounded-md text-sm font-medium ${hoverBg} transition-colors flex items-center gap-2`}
-          >
-            <Download className="w-4 h-4" /> Resume
-          </a>
           <button
             onClick={() => scrollTo("contact")}
             className={`border ${border} px-5 py-2.5 rounded-md text-sm font-medium ${hoverBg} transition-colors flex items-center gap-2`}
@@ -410,12 +403,9 @@ export default function BaileyWilburnSite() {
           <div className={`font-mono text-xs ${muted}`}>
             © 2026 Bailey Wilburn · baileywilburn.com
           </div>
-          <a
-            href="/resume.pdf"
-            className={`font-mono text-xs ${muted} hover:opacity-70 flex items-center gap-1.5 transition-colors`}
-          >
-            <Download className="w-3 h-3" /> resume.pdf
-          </a>
+          <span className={`font-mono text-xs ${muted}`}>
+            baileywilburn.com
+          </span>
         </div>
       </footer>
     </div>
